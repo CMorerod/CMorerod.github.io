@@ -71,10 +71,10 @@ DLTdv8 | DeepLabCut | ImageJ | CurveMapper]{.edu}
 ### Laboratory
 
 [**Lab management**]{.littletitle} <br>
-[inventory | organisation | coordination]
+inventory | organisation | coordination
 
 [**Fish care**]{.littletitle} <br>
-[tank maintenance | feeding | fish handling]
+tank maintenance | feeding | fish handling
 
 ## Publications
 
