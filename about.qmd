@@ -1,0 +1,66 @@
+---
+title: "Camille Morerod"
+image: img/profile.jpg
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/camille-morerod-28317220a/
+      target: "_blank"
+    - icon: github
+      text: Github
+      href: https://github.com/CMorerod
+      target: "_blank"
+format:
+  html:
+    css: styles.css    
+  
+---
+
+
+
+
+::: {#hero-heading}
+
+I am currently a research assistant at <a href="https://www.su.se/english/profiles/camo8324-1.638026" target="_blank" class="button">Stockholm University</a> in <a href="https://www.valentinadisanto.com" target="_blank" class="button">the Di Santo Lab</a>.
+
+
+
+I am interested about data analysis; from the question design to the finding presentation. I especially enjoy exploring, preparing and analyzing the data. R and Excel are my main tools. 
+
+During my free time, I like to spend time outside; running, walking and skiing. I also enjoy using my creativity to draw or to do other manual activities. 
+
+## Education 
+
+Stockholm University | Stockholm, Sweden
+
+MSc in Marine Biology | 2020 - 2022
+
+---
+
+The University of Neuchâtel | Neuchâtel, Switzerland
+
+BSc in Biology | 2017 - 2020
+
+## Work experience
+
+
+**Research assistant**
+
+Stockholm University | since 2022
+
+---
+
+
+**Ski teacher** 
+
+student job | Swiss Ski School | 2014 - 2017
+
+---
+
+
+:::
+

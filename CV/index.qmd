@@ -1,0 +1,97 @@
+---
+title: Curriculum Vitae
+format: 
+  html:
+    toc: true
+    toc-title: Curriculum Vitae
+    toc-location: left
+    toc-depth: 4
+    toc-expand: true
+    date: last-modified
+    date-format: "MMM YYYY"
+    author:
+    - name: Camille Morerod
+      orcid: 0000-0002-2580-0309
+  pdf:
+    author: Camille Morerod
+    pdf-engine: weasyprint
+css: CV.css
+format-links: [pdf]
+---
+
+
+::: {.print-only .contact-block}
+**MSc in Marine Biology** <br>
+
+<span class ="email"> [camille.morerod@bluewin.ch](mailto:camille.morerod@bluewin.ch)</span>
+<span class="orcid"> [0000-0002-2580-0309](https://orcid.org/0000-0002-2580-0309)</span>
+<span class="github"> [CMorerod](https://github.com/CMorerod)</span>
+:::
+
+## Work experience
+
+:::{.print-only}
+----
+:::
+**Stockholm University** [**Stockholm, Sweden**]{.cvlocation} <br> 
+[Research assistant]{.edu} [*since 2022*]{.cvdate}
+
+**Swiss Ski School** [**Les Diablerets, Switzerland**]{.cvlocation} <br> 
+[Ski teacher | student job]{.edu} [*2014 --- 2017*]{.cvdate}
+
+## Education
+
+:::{.print-only}
+----
+:::
+
+**Stockholm University** [**Stockholm, Sweden**]{.cvlocation} <br> 
+[MSc in Marine Biology]{.edu} [*2020 --- 2022*]{.cvdate}
+
+**The University of Neuchâtel** [**Neuchâtel, Switzerland**]{.cvlocation} <br> [BSc in Biology]{.edu} [*2017 --- 2020*]{.cvdate}
+
+## Experience
+
+:::{.print-only}
+----
+:::
+
+### Computer work
+
+[**Data analysis**]{.littletitle} <br>
+[Handling and processing of the data]{.edu}<br>
+[Statistics]{.edu}<br>
+[Excel | R]{.edu}
+
+[**Video and image analysis**]{.littletitle} <br>
+[Track fish and school movement <br>
+DLTdv8 | DeepLabCut | ImageJ | CurveMapper]{.edu} 
+
+### Laboratory
+
+[**Lab management**]{.littletitle} <br>
+[inventory | organisation | coordination]
+
+[**Fish care**]{.littletitle} <br>
+[tank maintenance | feeding | fish handling]
+
+## Publications
+
+:::{.print-only}
+----
+:::
+
+F. Berio, **C. Morerod**, X. Qi, V. Di Santo. 2023. [*Ontogenetic plasticity in shoaling behavior in a forage fish under warming*]{.pubtitle}. Integrative & Comparative Biology. <a href="https://doi.org/10.1093/icb/icad043" target="_blank" class="button">doi.org/10.1093/icb/icad043</a>doi.
+
+## Conferences
+
+:::{.print-only}
+----
+:::
+
+**International Society for Behavioural Ecology 2022** | Talk [**Stockholm, Sweden**]{.cvlocation} <br>
+**C. Morerod**, E. Murphy, V. Di Santo. [*The effects of coral surface roughness on coral reef fish locomotion*]{.edu}
+
+
+
+

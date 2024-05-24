@@ -1,0 +1,136 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700&display=swap');
+
+/* all formats */
+.email:before {
+  content: "";
+  display: inline-block;
+  width: 16px; /* Adjust the width as needed */
+  height: 16px; /* Adjust the height as needed */
+  background-image: url('assets/mail.png');
+  background-size: cover;
+  margin-right: 5px; /* Adjust the spacing between the icon and the email address */
+  margin-left: 15px; /* Adjust the spacing between the icon and the email address */
+}
+.orcid:before {
+  content: "";
+  display: inline-block;
+  width: 16px; /* Adjust the width as needed */
+  height: 16px; /* Adjust the height as needed */
+  background-image: url('assets/orcid.png'); 
+  background-size: cover;
+  margin-right: 5px; /* Adjust the spacing between the icon and the text */
+  margin-left: 15px; /* Adjust the spacing between the icon and the email address */
+}
+
+.github:before {
+  content: "";
+  display: inline-block;
+  width: 16px; /* Adjust the width as needed */
+  height: 16px; /* Adjust the height as needed */
+  background-image: url('assets/github.png'); 
+  background-size: cover;
+  margin-right: 5px; /* Adjust the spacing between the icon and the text */
+  margin-left: 15px; /* Adjust the spacing between the icon and the email address */
+}
+
+.cvdate {
+  float: right;
+  font-style: italic;
+  color: black;
+}
+.edu {
+  color: black;
+  margin-right: 20%;
+}
+.pubtitle {
+  color: black;
+}
+.cvlocation {
+  float: right;
+}
+.littletitle {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.print-only {
+  display: none;
+  /*color: aquamarine;*/
+}
+
+
+/* adapt stylesheet for print
+from: https://www.cynthiahqy.com/posts/cv-html-pdf/#install-weasyprint-and-render-to-pdf */
+
+@media print {
+  @page {
+      size: a4 portrait;
+      counter-increment: page;
+      @bottom-right {
+        content: counter(page) " / " counter(pages);
+        font-size: 11pt;
+        text-align: right;
+      }
+      @bottom-left {
+        content: "Camille Morerod";
+        font-size: 11pt;
+        text-align: left;
+      }
+  }
+  @page:first {
+    @top-left {
+      content: "May 2024";
+        font-size: 11pt;
+        text-align: left;
+    }
+  }
+  .no-print {
+      display: none;
+  }
+  .print-only {
+      display: block;
+  }
+
+  .contact-block {
+      margin-top: 0%;
+      text-align: center;
+  }
+  pdf {
+    font-family: "Times New Roman", serif;
+  }
+
+  header {
+    margin-block-end: 5em;
+  }
+  header h1.title {
+      display: none;
+  }
+  
+  header .author {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-block-end: 0em;
+    margin-bottom: 0;
+    text-transform: capitalize;
+  }
+
+  h2 {
+    
+    margin-bottom: 0.2em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0;
+  }
+  a {
+  color: black;
+  text-decoration: none;
+}
+  
+}

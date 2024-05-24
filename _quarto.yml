@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "Camille Morerod"
+
+
+  page-footer:
+    left: "&copy; Copyright 2024, Camille Morerod"
+    right: This website is published with [Quarto](https://quarto.org/){target=_blank} and love ❤️
+
+  navbar:
+    background: "#FFCE7A"
+    pinned: false
+    logo: img/Watermark.png 
+    align: center
+    collapse-level: 1
+    theme: 
+      style: styles.css
+    right: 
+      - text: "About me"
+        href: about.qmd
+      - text: "CV"
+        href: CV/index.qmd
+      - icon: "github"
+        href: "https://github.com/CMorerod"
+        target: "_blank"
+      - icon: envelope
+        href: mailto:camille.morerod@bluewin.ch
+        
+
+format:
+  html:
+    theme: [sketchy, theme-light.scss]
+    css: styles.css
+    toc: false
+
+

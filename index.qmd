@@ -1,0 +1,29 @@
+---
+title: "Welcome"
+image: img/profile.jpg
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/camille-morerod-28317220a/
+      target: "_blank"
+    - icon: github
+      text: Github
+      href: https://github.com/CMorerod
+      target: "_blank"
+
+---
+
+
+
+:::{.introduction}
+:::
+Hello, my name is **Camille Morerod**. I have a master in Marine Biology and I have a strong interest in data analysis.
+
+If you have any question, please contact me by [email](mailto:camille.morerod@bluewin.ch) or by clicking on any link on the left.
+
+
+

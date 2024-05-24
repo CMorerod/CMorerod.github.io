@@ -1,0 +1,15 @@
+/* css styles */
+  .button {
+    color: black;        /* Sets the text color to black */
+    text-decoration: none;  /* Removes the underline */
+  }
+  .navbar {
+    border: 2px solid #FFCE7A;
+  }
+  .introduction {
+    margin-top: 20%;
+  }
+  .about-image {
+  border: 5px solid pink; /* Change the color and width as needed */
+  border-radius: 50%; /* To keep the round shape */
+}
