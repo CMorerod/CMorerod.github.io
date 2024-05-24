@@ -24,8 +24,8 @@ format-links: [pdf]
 **MSc in Marine Biology** <br>
 
 <span class ="email"> [camille.morerod@bluewin.ch](mailto:camille.morerod@bluewin.ch)</span>
-<span class="orcid"> [0000-0002-2580-0309](https://orcid.org/0000-0002-2580-0309)</span>
-<span class="github"> [CMorerod](https://github.com/CMorerod)</span>
+<span class="orcid"> [0000-0002-2580-0309](https://orcid.org/0000-0002-2580-0309)</span> <br>
+<span class="website"> [https://cmorerod.github.io](https://cmorerod.github.io)</span>
 :::
 
 ## Work experience
