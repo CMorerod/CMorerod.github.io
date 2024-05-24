@@ -12,6 +12,7 @@ format:
     author:
     - name: Camille Morerod
       orcid: 0000-0002-2580-0309
+      
   pdf:
     author: Camille Morerod
     pdf-engine: weasyprint
